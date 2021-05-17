@@ -8,6 +8,9 @@ import router from "./router";
   domain,
   client_id,
   redirect_uri,
+  cacheLocation: "localstorage",
+  audience: "https://expenses-api", // 👈 Added
+  scope: "read:reports", // 👈 Added
 });
 
   // handle user navigation
